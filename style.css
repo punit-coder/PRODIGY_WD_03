@@ -1,0 +1,128 @@
+body{
+	background-color: yellow;
+}
+
+h1 { 
+	color: rgb(0, 0, 0); 
+	margin-bottom: -5px; 
+} 
+
+/* Main Container */
+#main { 
+	text-align: center; 
+} 
+
+/* Game Instruction Text */
+#ins { 
+	font-family: Verdana,Geneva, 
+					Tahoma, sans-serif; 
+	color: rgb(26, 12, 134); 
+}
+
+p { 
+	margin-bottom: -10px; 
+} 
+.ui { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+} 
+.row { 
+	display: flex; 
+} 
+.cell { 
+	border: none; 
+	width: 130px; 
+	height: 130px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-size: 40px; 
+	text-align: center; 
+	cursor: pointer; 
+} 
+.cell:active { 
+	outline: none; 
+} 
+/* 3*3 Grid */
+#b1{ 
+	border-bottom: 3px solid rgb(20, 11, 148); 
+	border-right: 3px solid rgb(20, 11, 148); 
+} 
+
+#b2 { 
+	border-bottom: 3px solid rgb(20, 11, 148); 
+	border-right: 3px solid rgb(20, 11, 148); 
+	border-left: 3px solid rgb(20, 11, 148); 
+} 
+
+#b3 { 
+	border-bottom: 3px solid rgb(20, 11, 148); 
+	border-left: 3px solid rgb(20, 11, 148); 
+} 
+
+#b4 { 
+	border-top: 3px solid rgb(20, 11, 148); 
+	border-bottom: 3px solid rgb(20, 11, 148); 
+	border-right: 3px solid rgb(20, 11, 148); 
+} 
+	
+#b5 { 
+	border: 3px solid rgb(20, 11, 148); 
+} 
+
+#b6 { 
+	border-top: 3px solid rgb(20, 11, 148); 
+	border-bottom: 3px solid rgb(20, 11, 148); 
+	border-left: 3px solid rgb(20, 11, 148); 
+} 
+
+#b7 { 
+	border-top: 3px solid rgb(20, 11, 148); 
+	border-right: 3px solid rgb(20, 11, 148); 
+} 
+
+#b8 { 
+	border-top: 3px solid rgb(20, 11, 148); 
+	border-right: 3px solid rgb(20, 11, 148); 
+	border-left: 3px solid rgb(20, 11, 148); 
+} 
+
+#b9 { 
+	border-top: 3px solid rgb(20, 11, 148); 
+	border-left: 3px solid rgb(20, 11, 148); 
+} 
+/* Reset Button */
+#button { 
+	box-sizing: border-box; 
+	width: 95px; 
+	height: 40px; 
+	border: 1px solid rgb(0, 0, 0); 
+	margin-left: auto; 
+	border-radius: 8px; 
+	font-family: Verdana, 
+	Geneva, Tahoma, sans-serif; 
+    background-color: rgb(243, 238, 238); 
+	color: rgb(86, 66, 236); 
+	font-size: 20px; 
+	cursor: pointer; 
+    transition: all 1s ease-in-out .4s;
+} 
+#button:hover {
+	color: yellow;
+    background-color: rgb(241, 14, 14);
+    height: 40px;
+    width: 95px;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+    
+}
+
+/* Player turn space */
+#print { 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+	color: darkblue; 
+	font-size: 20px; 
+}
